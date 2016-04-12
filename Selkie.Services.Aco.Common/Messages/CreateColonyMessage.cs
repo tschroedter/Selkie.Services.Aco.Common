@@ -9,5 +9,9 @@ namespace Selkie.Services.Aco.Common.Messages
 
         [NotNull]
         public int[] CostPerLine = new int[0];
+
+        public int FixedStartNode = 0;
+
+        public bool IsFixedStartNode = false;
     }
 }
