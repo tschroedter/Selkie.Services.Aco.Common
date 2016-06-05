@@ -2,16 +2,21 @@
 
 namespace Selkie.Services.Aco.Common.Messages
 {
+    [UsedImplicitly]
     public class CreateColonyMessage
     {
         [NotNull]
+        [UsedImplicitly]
         public int[][] CostMatrix = new int[0][];
 
         [NotNull]
-        public int[] CostPerLine = new int[0];
+        [UsedImplicitly]
+        public int[] CostPerFeature = new int[0];
 
-        public int FixedStartNode = 0;
+        [UsedImplicitly]
+        public int FixedStartNode;
 
-        public bool IsFixedStartNode = false;
+        [UsedImplicitly]
+        public bool IsFixedStartNode;
     }
 }

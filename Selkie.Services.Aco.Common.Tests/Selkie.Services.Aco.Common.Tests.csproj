@@ -74,6 +74,7 @@
     <Compile Include="Messages\BestTrailMessageTests.cs" />
     <Compile Include="Messages\CreateColonyMessageTests.cs" />
     <Compile Include="Messages\PheromonesMessageTests.cs" />
+    <Compile Include="Messages\StartMessageTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

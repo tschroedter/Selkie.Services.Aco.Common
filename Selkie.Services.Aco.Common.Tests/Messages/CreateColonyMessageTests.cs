@@ -17,25 +17,14 @@ namespace Selkie.Services.Aco.Common.Tests.Messages
         }
 
         [Fact]
-        public void CostPerLine_ReturnsDefault_WhenCalled()
+        public void CostPerFeature_ReturnsDefault_WhenCalled()
         {
             // Arrange
             // Act
             var sut = new CreateColonyMessage();
 
             // Assert
-            Assert.NotNull(sut.CostPerLine);
-        }
-
-        [Fact]
-        public void IsFixedStartNode_ReturnsDefault_WhenCalled()
-        {
-            // Arrange
-            // Act
-            var sut = new CreateColonyMessage();
-
-            // Assert
-            Assert.False(sut.IsFixedStartNode);
+            Assert.NotNull(sut.CostPerFeature);
         }
 
         [Fact]
@@ -48,6 +37,17 @@ namespace Selkie.Services.Aco.Common.Tests.Messages
             // Assert
             Assert.Equal(0,
                          sut.FixedStartNode);
+        }
+
+        [Fact]
+        public void IsFixedStartNode_ReturnsDefault_WhenCalled()
+        {
+            // Arrange
+            // Act
+            var sut = new CreateColonyMessage();
+
+            // Assert
+            Assert.False(sut.IsFixedStartNode);
         }
     }
 }
