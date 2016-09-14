@@ -73,8 +73,14 @@
   <ItemGroup>
     <Compile Include="Messages\BestTrailMessageTests.cs" />
     <Compile Include="Messages\CreateColonyMessageTests.cs" />
+    <Compile Include="Messages\CreatedColonyMessageTests.cs" />
+    <Compile Include="Messages\FinishedMessageTests.cs" />
     <Compile Include="Messages\PheromonesMessageTests.cs" />
+    <Compile Include="Messages\PheromonesRequestMessageTests.cs" />
+    <Compile Include="Messages\StartedMessageTests.cs" />
     <Compile Include="Messages\StartMessageTests.cs" />
+    <Compile Include="Messages\StoppedMessageTests.cs" />
+    <Compile Include="Messages\StopRequestMessageTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

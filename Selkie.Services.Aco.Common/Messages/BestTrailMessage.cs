@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
 
@@ -13,6 +14,9 @@ namespace Selkie.Services.Aco.Common.Messages
         public double Beta;
 
         [UsedImplicitly]
+        public Guid ColonyId = Guid.Empty;
+
+        [UsedImplicitly]
         public double Gamma;
 
         [UsedImplicitly]
@@ -23,7 +27,7 @@ namespace Selkie.Services.Aco.Common.Messages
 
         [NotNull]
         [UsedImplicitly]
-        public IEnumerable<int> Trail = new int[0];
+        public IEnumerable <int> Trail = new int[0];
 
         [NotNull]
         [UsedImplicitly]
