@@ -1,12 +1,11 @@
 ﻿using System;
-using Selkie.Services.Aco.Common.Messages;
-using Xunit;
+using Core2.Selkie.Services.Aco.Common.Messages;
 
-namespace Selkie.Services.Aco.Common.Tests.Messages
+namespace Core2.Selkie.Services.Aco.Common.Tests.Messages
 {
     public sealed class CreateColonyMessageTests
     {
-        [Fact]
+        [Test]
         public void ColonyId_ReturnsNewGuid_WhenCalled()
         {
             // Arrange
@@ -18,7 +17,7 @@ namespace Selkie.Services.Aco.Common.Tests.Messages
                             sut.ColonyId);
         }
 
-        [Fact]
+        [Test]
         public void CostMatrix_ReturnsDefault_WhenCalled()
         {
             // Arrange
@@ -29,7 +28,7 @@ namespace Selkie.Services.Aco.Common.Tests.Messages
             Assert.NotNull(sut.CostMatrix);
         }
 
-        [Fact]
+        [Test]
         public void CostPerFeature_ReturnsDefault_WhenCalled()
         {
             // Arrange
@@ -40,7 +39,7 @@ namespace Selkie.Services.Aco.Common.Tests.Messages
             Assert.NotNull(sut.CostPerFeature);
         }
 
-        [Fact]
+        [Test]
         public void FixedStartNode_ReturnsDefault_WhenCalled()
         {
             // Arrange
@@ -52,7 +51,7 @@ namespace Selkie.Services.Aco.Common.Tests.Messages
                          sut.FixedStartNode);
         }
 
-        [Fact]
+        [Test]
         public void IsFixedStartNode_ReturnsDefault_WhenCalled()
         {
             // Arrange

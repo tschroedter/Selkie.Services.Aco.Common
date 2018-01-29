@@ -186,3 +186,4 @@ FakesAssemblies/
 *.bak
 NuGet.Selkie.Services.Aco/lib/net45/
 NuGet.Selkie.Services.Aco.Common/lib/net45/Selkie.Services.Aco.Common.dll
+/.vs/Selkie.Services.Aco.Common/v15/Server/sqlite3
